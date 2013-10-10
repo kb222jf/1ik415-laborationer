@@ -3,17 +3,20 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Kontakt</title>
+		<link rel="stylesheet" href="../Css/Style.css" />
 	</head>
 
 	<body>
         <h1>Kontakt</h1>
 <!-- Meny start-->
+<div id="menu">
     <ul>
         <li><a href="../Index.html">Start</a></li>
         <li><a href="Presentation.html">Presentation</a></li>
         <li><a href="Laborationer.html">Laborationer</a></li>
         <li><a href="Kontakt.html">Kontakt</a></li>
     </ul>
+</div>
 <!-- Meny slut-->
 	    <h2>Kontaktformulär</h2>
 	    
@@ -24,7 +27,7 @@
 				    Förnamn: <input type="text" name="fornamn"><br>
 				    Efternamn: <input type="text" name="efternamn"><br>
                     Lärare <input type="checkbox" name="frågetyp" value="onodig"><br>
-				    Student <input type="checkbox" name=frågetyp" value="normal"><br>
+				    Student <input type="checkbox" name="frågetyp" value="normal"><br>
 				    Anställd <input type="checkbox" name="frågetyp" value="relevant"><br>
                     Arbetsgivare <input type="checkbox" name="frågetyp" value="talangfull"><br>
 				</fieldset>
@@ -36,7 +39,7 @@
 				    <option value="Relevant">relevant</option>
 				    <option value="Talangfull">talangfull</option>
 				    </select><br>
-                    <textarea rows="4" cols="35" maxlength="70">Skriv din fråga här...
+                    <textarea name="Frågan"rows="4" cols="35" maxlength="70">Skriv din fråga här...
                     </textarea><br>
                     <input type="submit" value="Skicka">
 				</fieldset>
