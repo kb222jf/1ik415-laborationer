@@ -53,23 +53,27 @@
 	{
 	    float: none;
 	    overflow: none;
-	    border: 1px solid blue;
+	    /* border: 1px solid blue; */
 	    margin-left:auto;
         margin-right:auto;
         width:720px;
         overflow: auto;
+        background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
+	    background-size:100%;
+	    background-attachment: fixed;
+	    background-position:50% 15%;
 	}
 
 	#navigation 
 	{
 	    float: none;
-	    border: 1px solid blue; 
+	    /* border: 1px solid blue; */
         width:708px;
         height: 80px;
 		margin-left:auto;
         margin-right:auto;
 		padding:1px 0px 0px 10px;
-		background:#f5f9f9 url('Pics/meny-mobile720.png') no-repeat;
+		background:#f5f9f9 url('Pics/meny-mobile620.png') no-repeat;
 	}
 	
 	#wrapper
@@ -77,57 +81,49 @@
 	    
 	    float: none;
 	    width:720px;
-	    border: 1px solid green; 
+	   /* border: 1px solid blue; */
 	    margin:auto;
 	    overflow: auto;
 	}
 	
-	
 	#context
 	{
 	    float: left;
-	    width: 462px;
-	    border: 1px solid blue;
+	    width: 440px;
+	    /* border: 1px solid blue; */
 	    margin:auto;
+	    margin-bottom: -105px;
 	    padding:0px 0px 0px 48px;
-	    background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
-	    background-size:100%;
-	    background-attachment: fixed;
-	    background-position:50% 10%;
 	}
 
 	#content
 	{
-        float: left;
-	    width: 462px;
-	    border: 1px solid blue; 
+        
+	    width: 440px;
+	    /* border: 1px solid blue; */
 	    margin:auto;
+	    margin-top: 100px;
 	    padding:0px 0px 0px 48px;
-	    background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
-	    background-size:100%;
-	    background-attachment: fixed;
-	    background-position:50% 10%;
 	}
 
-	#news
+    #news
 	{
-	    border-top: 1px solid #194444;
-	    float: left;	    
-	    width: 470px;
-	    border: 1px solid blue; 
+	    clear: right;	    
+	    width: 150px;
+	    /* border: 1px solid blue; */
 	    margin:auto;
 	    margin-left: 5px;
 	    background-color: transparent;
-        padding:0px 0px 0px 5px;
+        padding:0px 0px 0px 15px;
         list-style-image:url('Pics/blogg-klar.png');
 	}
-
+	
 	#footer
 	{
-	    width:460px;
+	    width:700px;
 	    height: 80px;
 	    /* : 4px solid blue; */
-	    background:url('Pics/meny-mobile480.png') no-repeat;
+	    background:url('Pics/meny-mobile620.png') no-repeat;
 	    color: #74f7f7;
 	    padding:15px 10px 5px 10px;
 	}
@@ -139,7 +135,7 @@
 	    font-family: 'Source Sans Pro';
 	    color: #74f7f7;
 	    text-decoration: none;
-        font-size: 19px;
+        font-size: 20px;
         background: #258686;
         height: 27px;
         border-left: solid black medium;
@@ -150,7 +146,7 @@
         border-bottom-width:1px;
         margin-left:auto;
         margin-right:auto;
-		padding: 10px 10px 10px 10px;
+		padding: 10px 15px 10px 15px;
         float: left;
 	}
 	

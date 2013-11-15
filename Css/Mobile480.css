@@ -52,7 +52,7 @@
 	#container
 	{
 	    float: none;
-	    overflow: none;
+	    overflow-x:hidden;
 	    /* border: 1px solid blue; */
 	    margin-left:auto;
         margin-right:auto;
@@ -79,17 +79,17 @@
 	    width:480px;
 	    /* border: 1px solid green; */
 	    margin:auto;
-	    overflow: auto;
+	    overflow-x:hidden;
 	}
 	
 	
 	#context
 	{
 	    float: left;
-	    width: 475px;
+	    width: 410px;
 	    /* border: 1px solid blue; */
 	    margin:auto;
-	    padding:0px 0px 0px 5px;
+	    padding:0px 30px 0px 40px;
 	    background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
 	    background-size:100%;
 	    background-attachment: fixed;
@@ -99,10 +99,10 @@
 	#content
 	{
         float: left;
-	    width: 475px;
+	    width: 410px;
 	    /* border: 1px solid blue; */ 
 	    margin:auto;
-	    padding:0px 0px 0px 5px;
+	    padding:0px 30px 0px 40px;
 	    background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
 	    background-size:100%;
 	    background-attachment: fixed;
@@ -113,13 +113,15 @@
 	{
 	    border-top: 1px solid #194444;
 	    float: left;	    
-	    width: 470px;
+	    width: 385px;
 	    /* border: 1px solid blue; */
 	    margin:auto;
-	    margin-left: 5px;
+	    margin-left: 40px;
+	    margin-right: 40px;
 	    background-color: transparent;
-        padding:0px 0px 0px 5px;
+        padding:0px 0px 0px 20px;
         list-style-image:url('Pics/blogg-klar.png');
+        overflow: auto;
 	}
 
 	#footer
