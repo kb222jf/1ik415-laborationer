@@ -1,0 +1,340 @@
+
+ /* @media *//* Färger:
+	 Body background: #f5f9f9
+	 Footer: #258686
+	 Menyknapp: #258686
+	 Menyknapp hover: #b5bce1
+	 Menyknaapp active: #194444
+	 
+	 Typsnitt:
+	 Meny: Source Sans Pro
+	 Body: Lucida Sans Unicode
+*/
+
+@media all
+{
+    body
+	{
+	    margin-left:auto;
+        margin-right:auto;
+        overflow: auto;
+        width:100%;
+	    /* border: 4px solid red; */
+		font-family: 'Lucida Sans Unicode';
+		font-size: 11pt;
+		background:#f5f9f9
+	}
+	
+	h2
+	{
+	   font-size:20pt; 
+	}
+
+	h3
+	{
+	    font-size:16pt; 
+	}
+
+	h4
+	{
+	    font-size:13pt;    
+	}
+
+	h5
+	{
+	    font-family: 'Source Sans Pro';
+	    text-decoration: none;
+        font-size: 18px;
+	    border-bottom: 1px solid #194444;    
+	}
+	
+/*Div-taggar start*/
+	#container
+	{
+	    float: none;
+	    overflow: none;
+	    /* border: 4px solid blue; */
+	    margin-left:auto;
+        margin-right:auto;
+        width:1024px;
+        background:#f5f9f9 url('Pics/back-screen.png') no-repeat right top;
+	}
+
+
+	
+	#navigation 
+	{
+	    float: none;
+	    /* border: 4px solid blue; */
+        width:749px;
+        height: 80px;
+		margin-left:auto;
+        margin-right:auto;
+		padding:1px 0px 0px 260px;
+		background:#f5f9f9 url('Pics/meny-screen.png') no-repeat;
+	}
+	
+	#wrapper
+	{
+	    float: none;
+	    width:1000px;
+	    /* border: 4px solid green; */
+	    margin:auto;
+	    overflow: auto;
+	}
+	
+	
+	#context
+	{
+	    float: left;
+	    width: 170px;
+	    /* border: 4px solid blue; */
+	    margin:auto;
+	    padding:70px 105px 20px 30px;
+	}
+
+	#content
+	{
+        float: left;
+	    width: 410px;
+	    /* border: 4px solid blue; */
+	    margin:auto;
+        padding-right: 50px;
+	}
+
+	#news
+	{
+	    float: left;	    
+	    width: 170px;
+	    /* border: 4px solid blue; */
+	    margin:auto;
+        padding:70px 0px 20px 40px; 
+        list-style-image:url('Pics/blogg-klar.png');
+	}
+
+	#footer
+	{
+	    width:1024px;
+	    height: 80px;
+	    /* : 4px solid blue; */
+	    background:url('Pics/meny-screen.png') no-repeat;
+	    color: #74f7f7;
+	    padding:15px 70px 5px 80px;
+	}
+/*Div-taggar slut*/
+
+/*Meny start*/	
+    #navigation a
+	{
+	    font-family: 'Source Sans Pro';
+	    color: #74f7f7;
+	    text-decoration: none;
+        font-size: 20px;
+        background: #258686;
+        height: 27px;
+        border-left: solid black medium;
+        border-left-width:1px;
+        border-right: solid black medium;
+        border-right-width:1px;
+        border-bottom: solid black medium;
+        border-bottom-width:1px;
+        margin-left:auto;
+        margin-right:auto;
+		padding: 10px 15px 10px 15px;
+        float: left;
+	}
+	
+	#navigation ul
+	{
+	    list-style: none;
+	}
+	
+	#navigation :hover
+	{
+		box-shadow: inset 5px 10px 10px 10px #276e6e;
+	}
+	
+	.active
+	{
+		box-shadow: inset 20px 20px 20px 15px #2e5d5d;
+	}
+/*Meny slut*/
+
+ /* @media */
+
+/*Laborationstabell start*/	
+	#Resultat
+	{
+	    width: 405px;
+	    height: 600px;
+	}
+	
+	#Resultat td, #Resultat th, #Resultat tfoot
+	{
+	    border:3px transparent;
+	    padding:3px 2px 2px 2px;
+	}
+	
+	#Resultat th
+	{
+        padding-top:5px;
+        padding-bottom:4px;
+        background-color:#2e5d5d;
+        color:#74f7f7;
+        border:3px solid #f5f9f9;
+	}
+	
+	#Resultat .labb 
+	{
+	      
+	    border:3px solid #2e5d5d;
+	}
+/*Laborationstabell slut*/	
+
+/*Kontaktformulär start*/ 
+    #Kontakt legend
+    {
+        padding:3px 5px 3px 5px;
+        background-color:#2d6d6d;
+        color:#74f7f7;
+        border:1px solid #74f7f7;
+    }
+   
+    #Kontakt input.name 
+    {
+        width:140px;
+        border:1px solid #2e5d5d;
+    }
+    
+    #Kontakt fieldset
+    {
+        font-size:12pt;
+        border:1px solid #2e5d5d;
+    }
+    
+    #Kontakt select
+    {
+        height: 25px;
+        width: 110px;
+        font-size:11pt;
+        border:1px solid #2e5d5d;
+        margin:0px 0px 5px 0px;
+    }
+    
+    #Kontakt textarea
+    {
+        height: 120px;
+        width: 370px;
+        font-size:11pt;
+        font-family: 'Lucida Sans Unicode';
+        border:1px solid #2e5d5d;
+    }
+    
+    #Kontakt input.submit
+    {
+        height: 25px;
+        width: 110px;
+        font-size:12pt;
+        border:1px solid #2e5d5d;
+        margin:2px 0px 0px 0px;
+    }
+/*Kontaktformulär slut*/ 
+
+/*Sprites*/
+
+    #spritediv
+	{
+        height: 25px;
+	    width: 400px;
+	    /* border: 4px solid blue; */
+	    margin:auto;
+        padding-right: 50px;
+	}
+	
+    #spritelist li
+    {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        position: absolute;
+        top: 0;
+    }
+    
+    #spritelist li, #spritelist a
+    {
+        height: 24px;
+        display: block;
+    }
+    #spritelist
+    {
+        position: relative;
+    }
+    #hus
+    {
+        left:0px;width:24px;
+    }
+    #hus
+    {
+        background:url("Pics/sprite.png") 0px 0px;
+    }
+    #hus a:hover
+    {
+        background: url("Pics/sprite.png") 0px -48px;
+    }
+    #hammare
+    {
+        left:80px;width:24px;
+    }
+    #hammare
+    {
+        background:url("Pics/sprite.png") 0px -96px;
+    }
+    #hammare a:hover
+    {
+        background: url("Pics/sprite.png") 0px -144px;
+    }#foto
+    {
+        left:160px;width:24px;
+    }
+    #foto
+    {
+        background:url("Pics/sprite.png") 0px -192px;
+    }
+    #foto a:hover
+    {
+        background: url("Pics/sprite.png") 0px -240px;
+    }#brev
+    {
+        left:240px;width:24px;
+    }
+    #brev
+    {
+        background:url("Pics/sprite.png") 0px -288px;
+    }
+    #brev a:hover
+    {
+        background: url("Pics/sprite.png") 0px -336px;
+    } 
+   
+/*Finlir*/
+	#Presbild
+	{
+	    float: right;
+	    margin:10px 0px 10px 10px;
+	    border:3px solid #2e5d5d;
+	}
+	
+	.left
+	{
+	    float: left;
+	    margin:0px 20px 10px 0px;
+	    border:3px solid #2e5d5d;
+	}
+	
+	.none
+	{
+	    float: none;
+	    margin:10px 20px 10px 0px;
+	    border:3px solid #2e5d5d;
+	}
+}/* @media */
