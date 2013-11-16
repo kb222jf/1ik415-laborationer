@@ -58,6 +58,10 @@
         margin-right:auto;
         width:480px;
         overflow: auto;
+        background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
+	    background-size:480px;
+	    background-attachment: fixed;
+	    background-position:50% 10%;
 	}
 
 	#navigation 
@@ -90,10 +94,6 @@
 	    /* border: 1px solid blue; */
 	    margin:auto;
 	    padding:0px 30px 0px 40px;
-	    background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
-	    background-size:100%;
-	    background-attachment: fixed;
-	    background-position:50% 10%;
 	}
 
 	#content
@@ -103,10 +103,6 @@
 	    /* border: 1px solid blue; */ 
 	    margin:auto;
 	    padding:0px 30px 0px 40px;
-	    background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
-	    background-size:100%;
-	    background-attachment: fixed;
-	    background-position:50% 10%;
 	}
 
 	#news

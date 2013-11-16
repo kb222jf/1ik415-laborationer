@@ -59,9 +59,9 @@
         width:720px;
         overflow: auto;
         background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
-	    background-size:100%;
+	    background-size:720px;
 	    background-attachment: fixed;
-	    background-position:50% 15%;
+	    background-position:50% 11%;
 	}
 
 	#navigation 
