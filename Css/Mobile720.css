@@ -60,8 +60,8 @@
         overflow: auto;
         background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
 	    background-size:720px;
-	    background-attachment: fixed;
-	    background-position:50% 11%;
+	    background-attachment: local;
+	    background-position:50% 1%;
 	}
 
 	#navigation 
