@@ -183,6 +183,9 @@
 	
 	#Resultat th
 	{
+	    font-family: 'Source Sans Pro';
+        text-transform:capitalize;
+        font-size: 16px;
         padding-top:5px;
         padding-bottom:4px;
         background-color:#2e5d5d;

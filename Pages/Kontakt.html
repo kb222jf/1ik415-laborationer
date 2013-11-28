@@ -3,24 +3,26 @@
 	<head>
 	<meta charset="utf-8" name="viewport" content="width:device-width, initial-scale=1" /> 
 	<title>Kontakt</title>
-    <link rel="shortcut icon" href="../Css/Pics/favicon.png" type="image/png" />
-<!-- All Devices -->
-		<link rel="stylesheet" href="../Css/Style.css" />
-<!-- Screens > 720px -->
-        <link rel="stylesheet" media="screen and (min-width:721px)" href="../Css/Screen.css" />
-<!-- Smartphones <= 720px -->
-        <link rel="stylesheet" media="only screen and (max-width:721px)" href="../Css/Mobile720.css" />        
-<!-- Smartphones <= 480px -->
-        <link rel="stylesheet" media="only screen and (max-width:481px)" href="../Css/Mobile480.css" />
-	</head>
+  <!-- Favicon -->
+        <link rel="shortcut icon" href="../Css/Pics/favicon.png" type="image/png" />
+<!-- Apple touch icons -->       
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../Pics/apple-touch.icon-screen.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../Pics/apple-touch.icon-720.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="57x57" href="../Pics/apple-touch.icon-480.png" />
 
-	<body>
-<div id="container">
+<!-- All Devices -->
+	    <link rel="stylesheet" href="../Css/Style.css" /> 
+<!-- Resolution Screens > 720px -->
+        <link rel="stylesheet" media="screen and (min-width: 721px)" href="../Css/Screen.css" />
+<!-- Resolution Smartphones <= 720px -->
+        <link rel="stylesheet" media="only screen and (max-width:721px)" href="../Css/Mobile720.css" /> 
+<!-- Resolution Smartphones <= 480px -->
+        <link rel="stylesheet" media="only screen and (max-width: 481px)" href="../Css/Mobile480.css" /> 
         
-   <!--  <div id="logo">
-         <a href="../Pics/Logowp13.png">
-        <img src="../Pics/Logowp13.png" alt="Branding in progress" width="210" height="254"></a>
-    </div>-->
+</head>
+
+<body>
+<div id="container">
     
 <!-- Meny start-->
     <div id="navigation">
@@ -36,7 +38,7 @@
 <div id="wrapper">
 
     <div id="context">
-         <p>
+        <p>
           Här har vi ett formulär med ett hyfsat begränsat användningsområde.
           Var snäll och inte skriv för mycket i det.
         </p>
@@ -51,8 +53,8 @@
 			
     <form name="Kontaktform" id="Kontakt" action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
 				<legend>Information om Dig</legend>
-				    Förnamn: <input class="name" type="text" name="fornamn"><br>
-				    Efternamn: <input class="name" type="text" name="efternamn"><br>
+				    Förnamn: <input type="email" class="name" name="fornamn"><br>
+				    Efternamn: <input type="email" class="name" name="efternamn"><br>
                     Lärare <input type="checkbox" name="frågetyp" value="onodig"><br>
 				    Student <input type="checkbox" name="frågetyp" value="normal"><br>
 				    Anställd <input type="checkbox" name="frågetyp" value="relevant"><br>
@@ -66,7 +68,7 @@
 				    <option value="Relevant">relevant</option>
 				    <option value="Talangfull">talangfull</option>
 				    </select><br>
-                    <textarea name="Frågan"rows="4" cols="35" maxlength="70">Skriv din fråga här...
+                    <textarea type="email" name="Frågan"rows="4" cols="35" maxlength="70">Skriv din fråga här...
                     </textarea><br>
                     <input class="submit" type="submit" value="Skicka">
 				
