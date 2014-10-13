@@ -20,7 +20,7 @@
         width:100%;
 	    /* border: 4px solid red; */
 		font-family: 'Lucida Sans Unicode';
-		font-size: 11pt;
+		font-size: 10pt;
 		background:#f5f9f9
 	}
 	
@@ -42,9 +42,9 @@
 	h5
 	{
 	    font-family: 'Source Sans Pro';
-	    text-decoration: none;
+	    text-decoration: underline;
         font-size: 18px;
-	    border-bottom: 1px solid #194444;    
+	    
 	}
 	
 /*Div-taggar start*/
@@ -55,7 +55,7 @@
 	    /* border: 2px solid blue; */
 	    margin-left:auto;
         margin-right:auto;
-        width:1024px;
+        width: 99%;
         background:#f5f9f9 url('Pics/back-screen.png') no-repeat;
 	    background-size:1024px;
 	    background-attachment: fixed;
@@ -68,18 +68,19 @@
 	{
 	    float: none;
 	    /* border: 1px solid blue; */
-        width:749px;
+        width: 96%;
         height: 80px;
 		margin-left:auto;
         margin-right:auto;
-		padding:1px 0px 0px 260px;
-		background:#f5f9f9 url('Pics/meny-screen.png') no-repeat;
+		padding:1px 0px 0px 0px;
+		background: #f5f9f9;
+
 	}
 	
 	#wrapper
 	{
 	    float: none;
-	    width:1000px;
+	    width: 96%;
 	    /* border: 2px solid green; */
 	    margin:auto;
 	    overflow: auto;
@@ -89,51 +90,66 @@
 	#context
 	{
 	    float: left;
-	    width: 145px;
+	    width: 11%;
 	    /* border: 1px solid blue; */
 	    margin:auto;
-	    padding:80px 80px 20px 60px;
+	    padding:80px 30px 20px 40px;
 	}
 
 	#content
 	{
+		border-right: solid #e5f0f0 2px;
+		border-left: solid #e5f0f0 2px;
         float: left;
-	    width: 450px;
+	    width: 44%;
 	    /* border: 1px solid blue; */
-	    margin:auto;
-        padding:0px 10px 0px 5px; 
+	    margin: 0% 3% 1% 6%;
+        padding:0px 15px 0px 20px; 
 	}
 
 	#news
 	{
 	    float: left;	    
-	    width: 180px;
+	    width: 10%;
 	    /* border: 1px solid blue; */
 	    margin:auto;
-        padding:62px 0px 20px 50px; 
+        padding: 70px 0px 20px 10px; 
         list-style-image:url('Pics/blogg-klar.png');
 	}
 
 	#footer
 	{
-	    width:1024px;
-	    height: 80px;
-	    /* : 1px solid blue; */
-	    background:url('Pics/meny-screen.png') no-repeat;
+	    width:98%;
+	    /* : 4px solid blue; */
+	    background-color: #258686;
 	    color: #74f7f7;
-	    padding:15px 70px 5px 80px;
+	    margin-top: 30px;
+	    padding: 20px 20px 20px 20px;
+	    float: none;
+	    
+	}
+	
+	#footer-widget
+	{
+	    width:80%;
+	    margin-right: auto;
+	    margin-left: auto;
+	    background-color: #258686;
+	    color: #74f7f7;
+	    text-align: center;
 	}
 /*Div-taggar slut*/
 
 /*Meny start*/	
-    #navigation a
+     #navigation a
 	{
 	    font-family: 'Source Sans Pro';
 	    color: #74f7f7;
 	    text-decoration: none;
-        font-size: 20px;
+        font-size: 18px;
         background: #258686;
-        height: 27px;
+        height: 28px;
+        width: 21%;
         border-left: solid black medium;
         border-left-width:1px;
         border-right: solid black medium;
@@ -142,13 +158,14 @@
         border-bottom-width:1px;
         margin-left:auto;
         margin-right:auto;
-		padding: 10px 15px 10px 15px;
+		padding: 14px 8px 10px 8px;
         float: left;
 	}
 	
 	#navigation ul
 	{
 	    list-style: none;
+	    text-align: center;
 	}
 	
 	#navigation :hover

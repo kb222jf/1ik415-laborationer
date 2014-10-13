@@ -46,7 +46,9 @@
 	    font-family: 'Source Sans Pro';
 	    text-decoration: none;
         font-size: 18px;
-	    border-bottom: 1px solid #194444; 
+        border-bottom: solid black 1px;
+        margin-right: 14px;
+	    
 	}
 	
 /*Div-taggar start*/
@@ -57,33 +59,32 @@
 	    /* border: 1px solid blue; */
 	    margin-left:auto;
         margin-right:auto;
-        width:480px;
+        width:99%;
         overflow: auto;
         background:#f5f9f9 url('Pics/back-mobile720.png') no-repeat;
 	    background-size:480px;
-	    background-attachment: local;
-	    background-position:50% 1%;
+	    background-attachment: fixed;
+	    background-position: 50% 50%;
 	}
 
 	#navigation 
 	{
-	    float: left;
+	    float: none;
 	    /* border: 1px solid blue; */
-        width:478px;
-        height: 80px;
+        width: 98%;
+        height: 290px;
 		margin-left:auto;
         margin-right:auto;
-		padding:1px 0px 0px 0px;
-		background:#f5f9f9 url('Pics/meny-mobile480.png') no-repeat;
 	}
 	
 	#wrapper
 	{
 	    
 	    float: none;
-	    width:480px;
+	    width:98%;
 	    /* border: 1px solid green; */
-	    margin:auto;
+	    margin-left:auto;
+        margin-right:auto;
 	    overflow-x:hidden;
 	}
 	
@@ -91,26 +92,28 @@
 	#context
 	{
 	    float: left;
-	    width: 410px;
+	    width: 86%;
 	    /* border: 1px solid blue; */
-	    margin:auto;
-	    padding:0px 30px 0px 40px;
+	    margin: 30px auto 20px auto;
+	   
 	}
 
 	#content
 	{
+		border: solid #258686 1px;
+		-webkit-border-radius: 4px 4px 4px 4px;
+		border-radius: 4px 4px 4px 4px;
         float: left;
-	    width: 410px;
-	    /* border: 1px solid blue; */ 
-	    margin:auto;
-	    padding:0px 30px 0px 40px;
+	    width: 84%;
+	    /* border: 1px solid #258686; */
+	    margin: 0px 30px 20px 20px;
+	    padding: 2px 10px 10px 15px
 	}
 
 	#news
 	{
-	    border-top: 1px solid #194444;
 	    float: left;	    
-	    width: 385px;
+	    width: 88%;
 	    /* border: 1px solid blue; */
 	    margin:auto;
 	    margin-left: 40px;
@@ -123,12 +126,24 @@
 
 	#footer
 	{
-	    width:460px;
-	    height: 80px;
+	    width:98%;
 	    /* : 4px solid blue; */
-	    background:url('Pics/meny-mobile480.png') no-repeat;
+	    background-color: #258686;
 	    color: #74f7f7;
-	    padding:15px 10px 5px 10px;
+	    margin-top: 30px;
+	    padding: 20px 20px 20px 20px;
+	    float: none;
+	    
+	}
+	
+	#footer-widget
+	{
+	    width:70%;
+	    margin-right: auto;
+	    margin-left: auto;
+	    background-color: #258686;
+	    color: #74f7f7;
+	    text-align: center;
 	}
 /*Div-taggar slut*/
 
@@ -140,7 +155,8 @@
 	    text-decoration: none;
         font-size: 18px;
         background: #258686;
-        height: 27px;
+        height: 25px;
+        width: 82%;
         border-left: solid black medium;
         border-left-width:1px;
         border-right: solid black medium;
@@ -149,13 +165,14 @@
         border-bottom-width:1px;
         margin-left:auto;
         margin-right:auto;
-		padding: 10px 9px 11px 9px;
+		padding: 10px 9px 10px 9px;
         float: left;
 	}
 	
 	#navigation ul
 	{
 	    list-style: none;
+	    text-align: center;
 	}
 	
 	#navigation :hover
@@ -174,7 +191,7 @@
 /*Laborationstabell start*/	
 	#Resultat
 	{
-	    width: 405px;
+	    width: 90%;
 	    height: 600px;
 	}
 	
