@@ -68,7 +68,7 @@
 	{
 	    float: none;
 	    /* border: 1px solid blue; */
-        width: 96%;
+        width: 98%;
         height: 80px;
 		margin-left:auto;
         margin-right:auto;
@@ -141,15 +141,15 @@
 /*Div-taggar slut*/
 
 /*Meny start*/	
-     #navigation a
+    #navigation a
 	{
 	    font-family: 'Source Sans Pro';
 	    color: #74f7f7;
 	    text-decoration: none;
-        font-size: 18px;
+        font-size: 11pt;
         background: #258686;
-        height: 28px;
-        width: 21%;
+        height: 26px;
+        width: 13.5%;
         border-left: solid black medium;
         border-left-width:1px;
         border-right: solid black medium;
@@ -158,7 +158,7 @@
         border-bottom-width:1px;
         margin-left:auto;
         margin-right:auto;
-		padding: 14px 8px 10px 8px;
+		padding: 16px 8px 8px 8px;
         float: left;
 	}
 	

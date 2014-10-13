@@ -56,7 +56,7 @@
 	    /* border: 4px solid blue; */
 	    margin-left:auto;
         margin-right:auto;
-        width:1024px;
+        width:1160px;
         background:#f5f9f9 url('Pics/back-screen.png') no-repeat;
 	    background-size:1024px;
 	    background-attachment: fixed;
@@ -69,18 +69,18 @@
 	{
 	    float: none;
 	    /* border: 4px solid blue; */
-        width:960px;
+        width:1140px;
         height: 80px;
 		margin-left:auto;
         margin-right:auto;
 		padding:1px 0px 0px 0px;
-		background:#f5f9f9 url('Pics/meny-klar.png') no-repeat;
+		background:#f5f9f9;
 	}
 	
 	#wrapper
 	{
 	    float: none;
-	    width:1000px;
+	    width:1140px;
 	    /* border: 4px solid green; */
 	    margin:auto;
 	    overflow: auto;
@@ -90,10 +90,10 @@
 	#context
 	{
 	    float: left;
-	    width: 150px;
+	    width: 140px;
 	    /* border: 4px solid blue; */
 	    margin:auto;
-	    padding:80px 50px 20px 60px;
+	    padding: 80px 90px 20px 70px;
 	}
 
 	#content
@@ -101,7 +101,7 @@
 		border-right: solid #e5f0f0 2px;
 		border-left: solid #e5f0f0 2px;
         float: left;
-	    width: 410px;
+	    width: 500px;
 	    /* border: 4px solid blue; */
 	    margin:auto;
         padding: 20px 20px 0px 20px;
@@ -110,16 +110,16 @@
 	#news
 	{
 	    float: left;	    
-	    width: 150px;
+	    width: 170px;
 	    /* border: 4px solid blue; */
 	    margin:auto;
-        padding:70px 0px 20px 40px; 
+        padding:70px 0px 20px 50px; 
         list-style-image:url('Pics/blogg-klar.png');
 	}
 
 	#footer
 	{
-	    width: 960px;
+	    width: 1024px;
 	    background-color: #258686;
 	    color: #74f7f7;
 	    margin-top: 30px;
@@ -138,15 +138,15 @@
 /*Div-taggar slut*/
 
 /*Meny start*/	
-    #navigation a
+     #navigation a
 	{
 	    font-family: 'Source Sans Pro';
 	    color: #74f7f7;
 	    text-decoration: none;
-        font-size: 18px;
+        font-size: 12pt;
         background: #258686;
-        height: 30px;
-        width: 180px;
+        height: 28px;
+        width: 156px;
         border-left: solid black medium;
         border-left-width:1px;
         border-right: solid black medium;
@@ -155,7 +155,7 @@
         border-bottom-width:1px;
         margin-left:auto;
         margin-right:auto;
-		padding: 12px 15px 8px 15px;
+		padding: 16px 8px 8px 8px;
         float: left;
 	}
 	
