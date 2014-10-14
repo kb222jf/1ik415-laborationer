@@ -1,7 +1,9 @@
 <!doctype html>
 <html lang="sv">
 <head>
-		<meta charset="utf-8" name="viewport" content="width:device-width, initial-scale=1" /> 
+
+		<meta charset="utf-8"> 
+		<meta name="viewport" content="width:device-width, initial-scale=1"> 
 		<title>Start</title>
 <!-- Favicon -->
         <link rel="shortcut icon" href="Css/Pics/favicon.png" type="image/png" />
@@ -11,14 +13,9 @@
         <link rel="apple-touch-icon-precomposed" sizes="57x57" href="Pics/apple-touch.icon-480.png" />
 
 <!-- Resolution All Devices -->
-	    <link rel="stylesheet" href="Css/Style.css" /> 
-<!-- Resolution Screens > 720px -->
-        <link rel="stylesheet" media="screen and (max-width: 1161px)" href="Css/Screen.css" />
-<!-- Resolution Smartphones <= 720px -->
-        <link rel="stylesheet" media="only screen and (max-width:721px)" href="Css/Mobile720.css" /> 
-<!-- Resolution Smartphones <= 480px -->
-        <link rel="stylesheet" media="only screen and (max-width: 481px)" href="Css/Mobile480.css" />
-        
+	    <link rel="stylesheet" href="../Css/html5-styles.css" /> 
+<!-- Not Responsive -->
+
 
 <!-- IE8 html5 fix -->
     <script>
@@ -33,118 +30,125 @@
         document.createElement("address");
     </script>
 <!-- IE8 html5 fix slut -->
+
 </head>
 
 <body>
     <div id="container">
 
-    <!--<div id="logo">
-        <a href="Pics/Logowp13.png">
-        <img src="Pics/Logowp13.png" alt="Branding in progress" width="210" height="254"></a>
-    </div>-->
     
 <!-- Meny start-->
-    <div id="navigation">
+    <nav id="navigation">
         <ul>
             <li><a href="../Index.html">Start</a></li>
             <li><a href="Presentation.html">Presentation</a></li>
             <li><a href="Laborationer.html">Laborationer</a></li>
             <li><a href="Html5.html" class="active">Html5</a></li>
-            <li><a href="../Gallery/index.html">Galleri</a></li>
+            <li><a href="../Gallery/index.html">Galleri CSS3</a></li>
             <li><a href="Kontakt.html">Kontakt</a></li>
         </ul> 
-    </div>
+    </nav>
 <!-- Meny slut-->
 
-<div id="wrapper">
+<main id="wrapper">
 
-    <div id="context">
+    <aside id="context">
          <p>
            Nu har du hittat en outtömlig källa av rekreation och underhållning.
            Nämligen Kristoffers godtyckliga blogg. Under framför allt oktober har
            jag byggt vederbörande sajt med ganska bundna händer. 
         </p>
-    </div>
+    </aside>
     
-    <div id="content">
+    <section id="content">
 	    <h2>Kursblogg</h2>
 <!-- BLoggpost-->	        
-	   <h5 id="20131107">Sprites, 2013/11/07</h5>
-	        <p>
-	            Varenda cell i min kropp säger emot när det gäller uppgiften 3.5. 
-	            (Att besudla min meny med css sprites). Därför redovisas dessa här istället:
-	        </p>	    
-        <div id="spritediv">
-            <ul id="spritelist">
-                <li id="hus"><a href="https://www.google.se/search?q=hus&oq=hus&aqs=chrome..69i57j0l5.641j0j8&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8"></a></li>
-                <li id="hammare"><a href="https://www.google.se/search?q=hus&oq=hus&aqs=chrome..69i57j0l5.641j0j8&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#es_sm=93&espv=210&q=hammare"></a></li>
-                <li id="foto"><a href="http://www.google.se/search?q=hus&oq=hus&aqs=chrome..69i57j0l5.641j0j8&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#es_sm=93&espv=210&q=foto"></a></li>
-                <li id="brev"><a href="http://www.google.se/search?q=hus&oq=hus&aqs=chrome..69i57j0l5.641j0j8&sourceid=chrome&espv=210&es_sm=93&ie=UTF-8#es_sm=93&espv=210&q=brev"></a></li>
-            </ul>
-        </div>
-<!-- BLoggpost-->	        
-	   <h5 id="20131106">Copycat, 2013/11/06</h5>
-	        <p>Här kommer en länk till <a href="https://c9.io/kb222jf/uppgift-3-3/workspace/index.html">
-	        https://c9.io/kb222jf/uppgift-3-3/workspace/index.html</a></p>
-	        
+        <article>
+	       <h5 id="20131107">Sprites, 2013/11/07</h5>
+	            <p>
+	                Varenda cell i min kropp säger emot när det gäller uppgiften 3.5. 
+	                (Att besudla min meny med css sprites). Därför redovisas dessa här istället:
+	            </p>	    
+            <div id="spritediv">
+                <ul id="spritelist">
+                    <li id="hus"><a href="https://www.google.se/search?q=hus&amp;oq=hus&amp;aqs=chrome..69i57j0l5.641j0j8&amp;sourceid=chrome&amp;espv=210&amp;es_sm=93&amp;ie=UTF-8"></a></li>
+                    <li id="hammare"><a href="https://www.google.se/search?q=hus&amp;oq=hus&amp;aqs=chrome..69i57j0l5.641j0j8&amp;sourceid=chrome&amp;espv=210&amp;es_sm=93&amp;ie=UTF-8#es_sm=93&amp;espv=210&amp;q=hammare"></a></li>
+                    <li id="foto"><a href="http://www.google.se/search?q=hus&amp;oq=hus&amp;aqs=chrome..69i57j0l5.641j0j8&amp;sourceid=chrome&amp;espv=210&amp;es_sm=93&amp;ie=UTF-8#es_sm=93&amp;espv=210&amp;q=foto"></a></li>
+                    <li id="brev"><a href="http://www.google.se/search?q=hus&amp;oq=hus&amp;aqs=chrome..69i57j0l5.641j0j8&amp;sourceid=chrome&amp;espv=210&amp;es_sm=93&amp;ie=UTF-8#es_sm=93&amp;espv=210&amp;q=brev"></a></li>
+                </ul>
+            </div>
+        </article>
+        
+<!-- BLoggpost-->
+        <article>
+	       <h5 id="20131106">Copycat, 2013/11/06</h5>
+	            <p>Här kommer en länk till <a href="https://c9.io/kb222jf/uppgift-3-3/workspace/index.html">
+	            https://c9.io/kb222jf/uppgift-3-3/workspace/index.html</a></p>
+	    </article>   
             
 <!-- BLoggpost-->
-        <h5 id="20131102">Lorem ibsum, 2013/11/02</h5>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id 
-                neque sed ligula venenatis condimentum. Praesent turpis purus, 
-                fringilla eu feugiat et, laoreet vel nunc. Praesent nunc sem, 
-                vestibulum iaculis faucibus a, ultrices sed dui. Nunc eget lectus 
-                neque. Nulla a dapibus orci, et lacinia massa. Nam et justo eu metus 
-                congue pharetra id a nunc. Maecenas quis imperdiet magna.
-            </p>
+        <article>
+            <h5 id="20131102">Lorem ibsum, 2013/11/02</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id 
+                    neque sed ligula venenatis condimentum. Praesent turpis purus, 
+                    fringilla eu feugiat et, laoreet vel nunc. Praesent nunc sem, 
+                    vestibulum iaculis faucibus a, ultrices sed dui. Nunc eget lectus 
+                    neque. Nulla a dapibus orci, et lacinia massa. Nam et justo eu metus 
+                    congue pharetra id a nunc. Maecenas quis imperdiet magna.
+                </p>
             
-            <a href="Pics/Loremibs.jpg">
-            <img src="Pics/Loremibs.jpg" class="left" alt="Vilken utsikt" width="240" height="180"></a>
+                <a href="../Pics/Loremibs.jpg">
+                <img src="../Pics/Loremibs.jpg" class="left" alt="Vilken utsikt" width="240" height="180"></a>
             
-            <p>
-                Vestibulum velit lacus, ultricies eget vestibulum eu, porta non turpis. 
-                Phasellus non tortor nibh. Integer suscipit tincidunt scelerisque. 
-                Phasellus nec vulputate turpis, id pretium eros. Cras adipiscing 
-                nunc non nisl feugiat posuere id sit amet diam. Aliquam erat 
-                volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et 
-                ultrices posuere cubilia Curae; Curabitur imperdiet nisl sit amet 
-                lacinia sagittis. Etiam vitae diam ac sem varius dapibus. Etiam et 
-                massa odio. Praesent id elit vitae nulla ultricies gravida nec non 
-                nisi. Vivamus consectetur placerat odio, non porta lectus tristique 
-                eget. Proin elementum erat urna, id laoreet velit tempor vel. Donec 
-                quis dolor id purus malesuada euismod. Mauris vitae metus varius, 
-                sodales quam id, venenatis est.
-            </p>
-            <p>
-                Donec sit amet nisl sed tortor pretium semper. Pellentesque quis 
-                velit purus. Praesent augue elit, fermentum ut ante nec, malesuada 
-                facilisis neque. Aenean id felis vitae purus blandit viverra. Nam a 
-                commodo elit. Maecenas elementum arcu eu justo molestie, blandit 
-                rhoncus arcu ullamcorper. Phasellus porttitor at odio vel placerat. 
-                Nullam in sapien est.
-            </p>
-            
-            
-<!-- BLoggpost-->	        
-	   <h5 id="20131001">Videon, 2013/10/01</h5>
-	        <p>Här kommer en trailer från <a href="http://www.bigbuckbunny.org/">www.bigbuckbunny.org</a></p>
-	        <video class="none" width="240" height="180" controls poster="Pics/bunnyposter.jpg">
-	        <source src="Videos/trailer_1080p.mov" type="video/mov" />
-	        <source src="Videos/trailer_1080p.ogg" type="video/ogg" />
-            <p>Din dator stödjer ej det här</p>
-            </video>
+                <p>
+                    Vestibulum velit lacus, ultricies eget vestibulum eu, porta non turpis. 
+                    Phasellus non tortor nibh. Integer suscipit tincidunt scelerisque. 
+                    Phasellus nec vulputate turpis, id pretium eros. Cras adipiscing 
+                    nunc non nisl feugiat posuere id sit amet diam. Aliquam erat 
+                    volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et 
+                    ultrices posuere cubilia Curae; Curabitur imperdiet nisl sit amet 
+                    lacinia sagittis. Etiam vitae diam ac sem varius dapibus. Etiam et 
+                    massa odio. Praesent id elit vitae nulla ultricies gravida nec non 
+                    nisi. Vivamus consectetur placerat odio, non porta lectus tristique 
+                    eget. Proin elementum erat urna, id laoreet velit tempor vel. Donec 
+                    quis dolor id purus malesuada euismod. Mauris vitae metus varius, 
+                    sodales quam id, venenatis est.
+                </p>
+                <p>
+                    Donec sit amet nisl sed tortor pretium semper. Pellentesque quis 
+                    velit purus. Praesent augue elit, fermentum ut ante nec, malesuada 
+                    facilisis neque. Aenean id felis vitae purus blandit viverra. Nam a 
+                    commodo elit. Maecenas elementum arcu eu justo molestie, blandit 
+                    rhoncus arcu ullamcorper. Phasellus porttitor at odio vel placerat. 
+                    Nullam in sapien est.
+                </p>
+        </article>
             
             
-<!-- BLoggpost-->	
-	    <h5 id="20130917">Kristoffer, 2013/09/17</h5>
-	        <p>På denna blogg tänker jag publicera mina laborationer.
-	        Av och till tänker jag också slänga in några klyftiga 
-	        kommentarer.</p>
-	    
-	</div>
+<!-- BLoggpost-->
+        <article>
+	       <h5 id="20131001">Videon, 2013/10/01</h5>
+	            <p>Här kommer en trailer från <a href="http://www.bigbuckbunny.org/">www.bigbuckbunny.org</a></p>
+	            <video class="none" width="240" height="180" controls poster="../Pics/bunnyposter.jpg">
+	            <source src="../Videos/trailer_1080p.mov" type="video/mov" />
+	            <source src="../Videos/trailer_1080p.ogg" type="video/ogg" />
+                <p>Din dator stödjer ej det här</p>
+                </video>
+        </article>
+            
+<!-- BLoggpost-->
+        <article>
+	        <h5 id="20130917">Kristoffer, 2013/09/17</h5>
+	            <p>
+	            På denna blogg tänker jag publicera mina laborationer.
+	            Av och till tänker jag också slänga in några klyftiga 
+	            kommentarer.
+	            </p>
+	    </article>
+	</section>
 	
-<div id="news">
+<aside id="news">
 	<ul>
 	    <li><a href="#20131107">Sprites, 2013/11/07</a></li>
 	    <li><a href="#20131106">Copycat, 2013/11/06</a></li>
@@ -152,15 +156,15 @@
         <li><a href="#20131001">Videon, 2013/10/01</a></li>
 	    <li><a href="#20130917">Kristoffer, 2013/09/17</a></li>
     </ul>
-</div>
+</aside>
 
-</div>
+</main>
 
-    <div id="footer">
+    <footer id="footer">
            <div id="footer-widget">
                 <p>Här är jag tvungen att skriva några rader p.g.a. layouten!</p>
             </div>
-    </div>
+    </footer>
     
 </div>    
 
