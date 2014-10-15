@@ -1,0 +1,27 @@
+#content
+	{
+        float: left;
+	    width: 92%;
+	    border: none;
+	    padding-left: 20px;
+	}
+
+#content a img
+{
+    float: left;
+    width: 32%;
+    height: 32%;
+    border: 1px solid #333;
+}
+
+#content a img:hover
+{
+    width: 60%;
+    height: 60%;
+    -webkit-transition-property: width, height; /* we specify, what properties we need to change*/
+    -webkit-transition-duration: 400ms; /* we specify, with what speed it is necessary to return an image in its initial look*/
+    -moz-transition-property: width, height;
+    -moz-transition-duration: 300ms;
+    -o-transition-property: width, height;
+    -o-transition-duration: 300ms;    
+}
