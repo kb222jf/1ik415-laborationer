@@ -1,9 +1,14 @@
+#wrapper
+{
+    overflow-y: hidden;
+}
+
 #content
 {
     float: left;
 	width: 92%;
 	border: none;
-	padding-left: 20px;
+	padding: 20px 5px 40px 20px;
 }
 
 
