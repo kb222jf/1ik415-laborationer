@@ -1,27 +1,46 @@
 #content
-	{
-        float: left;
-	    width: 92%;
-	    border: none;
-	    padding-left: 20px;
-	}
+{
+    float: left;
+	width: 92%;
+	border: none;
+	padding-left: 20px;
+}
+
+#content a
+{
+    float: left;
+    width: 44%;
+    height: 44%; 
+    border: 1px solid #333;
+    background-color: #ffffff;
+    -webkit-transition-property: width, height, transform;/* we specify, what properties we need to change*/
+    -webkit-transition-duration: 400ms; /* we specify, with what speed it is necessary to return an image in its initial look*/
+    -moz-transition-property: width, height, transform;
+    -moz-transition-duration: 400ms;
+    -o-transition-property: width, height, transform;
+    -o-transition-duration: 400ms;   
+}
 
 #content a img
 {
     float: left;
-    width: 32%;
-    height: 32%;
-    border: 1px solid #333;
+    width: 80%;
+    padding: 0% 10% 10% 10%;
 }
 
-#content a img:hover
+#content a:hover
 {
-    width: 60%;
-    height: 60%;
-    -webkit-transition-property: width, height; /* we specify, what properties we need to change*/
-    -webkit-transition-duration: 400ms; /* we specify, with what speed it is necessary to return an image in its initial look*/
-    -moz-transition-property: width, height;
-    -moz-transition-duration: 300ms;
-    -o-transition-property: width, height;
-    -o-transition-duration: 300ms;    
+    width: 54%;
+    height: 54%;
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+#content a::before
+{
+    content: attr(title);
+    padding: 5px;
+    color: #000000;
+    text-align: center;
+    font-family: 'The Girl Next Door', serif;
 }
